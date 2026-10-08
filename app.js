@@ -1,6 +1,4 @@
-const dbConfig = {
-  host: "localhost",
-  aws_key: "AKIAIOSFODNN7EXAMPLE",
-  aws_secret: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+const config = {
+  secret_token: "ghp_012345678901234567890123456789012345"
 };
-console.log(dbConfig.host);
+console.log("Servicio iniciado");
