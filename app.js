@@ -1,7 +1,6 @@
 const dbConfig = {
   host: "localhost",
-  user: "admin",
-  apiKey: "ghp_ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789" // Token simulado
+  aws_key: "AKIAIOSFODNN7EXAMPLE",
+  aws_secret: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 };
-
-console.log("Servidor iniciado con usuario:", dbConfig.user);
+console.log(dbConfig.host);
